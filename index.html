@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <title>Student Page: Gera Baano-Stewart II</title> 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Gera Baano-Stewart II</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#mission">Mission Statement</a></li>
+                <li><a href="#websites">Websites Discoveres</a></li>
+                <li><a href="#food">Favorite Foods</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Gera Baano-Stewart II</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#mission" onclick="toggleMenu()">Mission</a></li>
+                <li><a href="#websites" onclick="toggleMenu()">Websites</a></li>
+                <li><a href="#food" onclick="toggleMenu()">Food</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Rest of your HTML content -->
+</body>
+</html>
+
+      </div>
+    </nav>
+    <style>
+        /* Define a grid layout for the profile section */
+        .section__pic-container {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px; /* Adjust the gap between the pictures */
+        }
+      
+        /* Style the profile pictures */
+        .section__pic-container img {
+          max-width: 100%;
+          height: auto;
+        }
+       
+  /* Define a grid layout for the profile section */
+  .section__pic-container {
+    display: flex; /* Change display to flex */
+    justify-content: space-between; /* Add this to separate the images */
+    gap: 20px; /* Adjust the gap between the pictures */
+  }
+
+  /*Style the profile pictures */
+  .section__pic-container img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+<section id="profile">
+  <div class="section__pic-container">
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7095478199224053761/">
+      <img src="./assets/profile-pic.png" alt="Gera Baano-Stewart II profile picture" />
+    </a>
+    <a href="https://dabrick47.github.io/HCSC330/">
+      <img src="./assets/firm-pic.png" alt="firm picture" />
+    </a>
+  </div>
+</section>
+
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Gera Baano-Stewart II</h1>
+          <p class="section__text__p2">Student</p>
+      
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')"
+            >
+              More Of G.Baano
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
+      
+      </section>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+        <h2 class="title">My <span style="color: red;">About</span> Me</h2>
+        <div class="section-container">
+            <div class="text-container">
+                <ul>
+                    <li>Name: Gera Baano-Stewart II</li>
+                    <li>Year: senior</li>
+                    <li>Major: Software Engineering</li>
+                    <li>Email: Gerald.stewart@morehouse.edu</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+       <section id="mission" style="text-align: center;">
+            <h2 class="title">My <span style="color: red;">My Mission</span> Statement</h2>
+            <div class="section-container">
+              <div class="text-container">
+                <div class="mission-statement"> <!-- Separate Division -->
+                  <p>
+                    My Why is that I plan on creating my own verison of big tech, to be
+                    the first black big tech organization, the like of google, and meta.
+                    We create apps that I will generate a better living here on earth,
+                    with apps like Simp we create couples and relationships more geniue
+                    then ever. Then with apps like Crowd Plays we create fan expiernce
+                    unlike anyother to give the fans a chance to make money off their
+                    favorite atheles. We already have an Office in Buckhead and 4 employees,
+                    we plan to keep growing and hit the next levels! With me being in this
+                    class it'll help me freshen up my skills with web programming, something
+                    that I left in the past. Similar to Dr. Brickler I wanted to be an aerospace
+                    engineer but after being apart of the dual degree program at Morehouse, I decided
+                    to switch to SWE, due to me aleady knowing how to code and me not wanting to
+                    do the dual degree whole 3 years at mmorehouse and 2 years at another school
+                    for just 2 Bachelors degrees, when it really takes 6-7 years from the people
+                    I've talked too.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+    
+    <section id="websites">
+        <p class="section__text__p1">G.Baano</p>
+        <h2 class="title">My <span style="color: red;">Websites</span> I Found</h2>
+        <div class="section-container">
+            <div class="text-container">
+                <table border="1">
+                    <tr>
+                        <th>Website Name</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.parlayplay.io">Parlayplay Website</a></td>
+                        <td>Parlayplay website</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.FlyHyer.com">FlyHyer Website</a></td>
+                        <td>FlyHyer website</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.morehouse.edu">Morehouse College Website</a></td>
+                        <td>Morehouse College website</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://dabrick47.github.io/HCSC330/">Dr. Brickler Website</a></td>
+                        <td>Dr. Brickler website</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    
+</section>
+<section id="food">
+  <h2 class="title">My <span style="color: red;"> My Favorite</span> Food </h2>
+  <ol>
+    <li>Burgers</li>
+    <li>Persian food</li>
+    <li>Meatloaf</li>
+    <li>Strawberries</li>
+    <li>Lobster</li>
+  </ol>
+</section>
+
+          
+
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+               
+            
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3+ years <br />Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+            
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.S Bachelors Degree<br />Morehouse College</p>
+            </div>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="">gerald.stewart@morehouse.edu</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+           
+            class="icon contact-icon"
+          />
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#mission">mission</a></li>
+            <li><a href="#websites">websites</a></li>
+            <li><a href="#food">food</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Gera Baano-Stewart II. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
